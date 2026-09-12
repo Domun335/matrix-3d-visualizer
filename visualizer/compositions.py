@@ -261,7 +261,7 @@ def render_composition_tab():
         st.write(
             f"- $\\det(B \\cdot A) = {det_BA:.3f}$ (równy $\\det(B) \\cdot \\det(A) = {np.linalg.det(B)*np.linalg.det(A):.3f}$)"
         )
-        st.write(f"- Ślad $\\operatorname{{Tr}}(B \\cdot A) = {np.trace(BA):.2f}$")
+        st.write(f"- Ślad $\\mathrm{{Tr}}(B \\cdot A) = {np.trace(BA):.2f}$")
 
     with c2:
         st.markdown("**Iloczyn $A \\cdot B$ (najpierw B, potem A):**")
@@ -269,7 +269,7 @@ def render_composition_tab():
         st.write(
             f"- $\\det(A \\cdot B) = {det_AB:.3f}$ (równy $\\det(A) \\cdot \\det(B) = {np.linalg.det(A)*np.linalg.det(B):.3f}$)"
         )
-        st.write(f"- Ślad $\\operatorname{{Tr}}(A \\cdot B) = {np.trace(AB):.2f}$")
+        st.write(f"- Ślad $\\mathrm{{Tr}}(A \\cdot B) = {np.trace(AB):.2f}$")
 
     are_commute = np.allclose(BA, AB)
     if are_commute:

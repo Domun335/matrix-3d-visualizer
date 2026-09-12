@@ -29,7 +29,7 @@ Aplikacja w Pythonie (**Streamlit** + **Plotly** + **NumPy**) dedykowana wyłąc
   - Dowolna macierz wprowadzana w edytorze $3 \times 3$.
 - **Algebraiczne właściwości macierzy**:
   - Wyznacznik $\det(A)$ (ze skalą objętości i interpretacją orientacji/odbicia).
-  - Ślad $\operatorname{Tr}(A)$, rząd $\operatorname{rank}(A)$.
+  - Ślad $\mathrm{Tr}(A)$, rząd $\mathrm{rank}(A)$.
   - Automatyczna klasyfikacja typu macierzy (ortogonalna, symetryczna, diagonalna, osobliwa).
   - Macierz odwrotna $A^{-1}$ (lub informacja o osobliwości).
 
